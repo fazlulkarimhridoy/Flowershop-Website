@@ -1,4 +1,3 @@
-/* all styles */
 * {
     margin: 0;
     padding: 0;
@@ -43,4 +42,98 @@ header {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* featured flower styles */
+.featured-flower {
+    max-width: 1440px;
+    margin: 250px auto 100px;
+}
+
+.featured-info {
+    text-align: center;
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* flower chart styles */
+.flower-chart {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 80px 0px 80px;
+    margin-right: 25px;
+}
+
+.image-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 80px 0px 80px;
+    margin-right: 25px;
+
+}
+
+.image-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 100px 80px 0px 80px;
+
+}
+
+.image-name {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* sale section */
+.sale-flower {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 100px 425px;
+}
+.sale-info{
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 200px;
+}
+
+.sale-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.sale-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
