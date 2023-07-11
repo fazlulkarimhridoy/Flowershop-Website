@@ -1,0 +1,46 @@
+/* all styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header styles */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 50px 240px 0px 240px;
+}
+
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    padding: 20px 45px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
